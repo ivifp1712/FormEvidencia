@@ -1,0 +1,7 @@
+{
+  "name": "Ev2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

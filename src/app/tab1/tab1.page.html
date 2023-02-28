@@ -1,0 +1,66 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- <ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <app-explore-container name="Tab 1 page"></app-explore-container>
+</ion-content> -->
+    <ion-content class="has-header">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Nombre</span>
+          <input type="text">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Apellido</span>
+          <input type="password">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Correo Electrónico</span>
+          <input type="password">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Avatar</span>
+          <input type="file">
+        </label>
+        <label class="item item-input item-select">
+          <div class="input-label">
+            Ciudad
+          </div>
+          <select>
+            <option>Blue</option>
+            <option selected>Green</option>
+            <option>Red</option>
+          </select>
+        </label>
+        <label class="item item-input item-select">
+          <div class="input-label">
+            Sexo
+          </div>
+          <select>
+            <option>Maculino</option>
+            <option selected>Femenino</option>
+          </select>
+        </label>
+        <label class="item item-input item-select">
+          <div class="input-label">
+            Fecha Nacimiento
+          </div>
+          <input type="date">
+        </label>
+        
+        <div class="padding">
+          <button class="button button-block button-assertive">Guardar</button>
+        </div>
+      </div>
+    </ion-content>
